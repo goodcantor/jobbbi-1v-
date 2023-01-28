@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Jobbbi</title>
+  </head>
+  <body>
+    <section class="home">
+      <div class="container">
+        <div class="home__inner">
+          <header class="home__header">
+            <!-- <img src="" alt="" class="home__header-logo" /> -->
+            <div class="home__header-logo">Jobbbi</div>
+            <div class="home__header-links">
+              <a href="#" class="home__header-link">Категории</a>
+              <a href="#" class="home__header-link">Компании</a>
+              <a href="#" class="home__header-link">Блог</a>
+            </div>
+            <a href="#" class="home__header-btn"
+              >Разместить вакансию бесплатно</a
+            >
+          </header>
+          <div class="home__group">
+            <h2 class="home__title">Найди работу мечты</h2>
+            <p class="home__subtitle">Самые отборные вакансии для вас</p>
+            <div class="home__search">
+              <div class="home__search-fields">
+                <input
+                  type="search"
+                  placeholder="Введи профессию или должность"
+                  class="home__search-job"
+                />
+                <div class="home__search-location">
+                  <div class="home__search-location-group">
+                    <svg
+                      class="home__search-location-icon"
+                      width="17"
+                      height="20"
+                      viewBox="0 0 17 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.7008 8.40117C15.7008 14.0012 8.50078 18.8012 8.50078 18.8012C8.50078 18.8012 1.30078 14.0012 1.30078 8.40117C1.30078 6.49161 2.05935 4.66026 3.40961 3.31C4.75987 1.95974 6.59122 1.20117 8.50078 1.20117C10.4103 1.20117 12.2417 1.95974 13.5919 3.31C14.9422 4.66026 15.7008 6.49161 15.7008 8.40117Z"
+                        stroke="#0F0F0F"
+                        stroke-width="1.04"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M8.50156 10.802C9.82705 10.802 10.9016 9.72744 10.9016 8.40195C10.9016 7.07647 9.82705 6.00195 8.50156 6.00195C7.17608 6.00195 6.10156 7.07647 6.10156 8.40195C6.10156 9.72744 7.17608 10.802 8.50156 10.802Z"
+                        stroke="#0F0F0F"
+                        stroke-width="1.04"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Место
+                  </div>
+                  <svg
+                    class="home__search-arrow"
+                    width="15"
+                    height="8"
+                    viewBox="0 0 15 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L7.5 7L13.5 1"
+                      stroke="#0F0F0F"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="home__search-category">
+                  <div class="home__search-category-group">
+                    <svg
+                      class="home__search-category-icon"
+                      width="17"
+                      height="18"
+                      viewBox="0 0 17 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.19844 0.900391H0.898438V7.20039H7.19844V0.900391Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.4992 0.900391H10.1992V7.20039H16.4992V0.900391Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.4992 10.2012H10.1992V16.5012H16.4992V10.2012Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M7.19844 10.2012H0.898438V16.5012H7.19844V10.2012Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    Категория
+                  </div>
+                  <svg
+                    class="home__search-arrow"
+                    width="15"
+                    height="8"
+                    viewBox="0 0 15 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L7.5 7L13.5 1"
+                      stroke="#0F0F0F"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="home__search-sort">
+                  <div class="home__search-sort-group">
+                    <svg
+                      class="home__search-sort-icon"
+                      width="16"
+                      height="22"
+                      viewBox="0 0 16 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 20.5996V8.59961"
+                        stroke="black"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M15.1992 20.6004V1.40039"
+                        stroke="black"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M0.800781 20.6008V15.8008"
+                        stroke="black"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    Сортировка
+                  </div>
+                  <svg
+                    class="home__search-arrow"
+                    width="15"
+                    height="8"
+                    viewBox="0 0 15 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L7.5 7L13.5 1"
+                      stroke="#0F0F0F"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <button class="home__search-btn">Найти</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jobs">
+      <div class="container">
+        <div class="jobs__inner">
+          <div class="jobs__left">
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <div class="jobs__job">
+              <img
+                src="https://avatanplus.com/files/resources/original/57f3bd5552381157901b9559.png"
+                alt=""
+                class="jobs__logo"
+              />
+              <div class="jobs__job-group">
+                <span class="jobs__job-name">Frontend developer</span>
+                <div class="jobs__job-company-location-salary">
+                  <span class="jobs__job-company">BMW</span>
+                  <span class="jobs__job-location">Удаленно (Москва) </span>
+                  <span class="jobs__job-salary">150000 - 200000 ₽</span>
+                </div>
+                <div class="jobs__job-labels">
+                  <div class="jobs__job-label-type">Фулл-тайм</div>
+                  <div class="jobs__job-label-remote">Удаленно</div>
+                  <div class="jobs__job-label-category">Разработка</div>
+                </div>
+              </div>
+            </div>
+            <button class="jobs__btn">Загрузить еще</button>
+          </div>
+          <div class="jobs__right">
+            <div class="jobs__boxes">
+              <div class="jobs__box">
+                <h3 class="jobs__box-title">
+                  Подпишись на рассылку и yзнавай о свежих вакансиях первым
+                </h3>
+                <input
+                  class="jobs__box-input"
+                  type="text"
+                  placeholder="anasun@gmail.com"
+                />
+                <div class="jobs__box-category">
+                  <div class="jobs__box-category-group">
+                    <svg
+                      class="jobs__box-category-icon"
+                      width="17"
+                      height="18"
+                      viewBox="0 0 17 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.19844 0.900391H0.898438V7.20039H7.19844V0.900391Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.4992 0.900391H10.1992V7.20039H16.4992V0.900391Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.4992 10.2012H10.1992V16.5012H16.4992V10.2012Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M7.19844 10.2012H0.898438V16.5012H7.19844V10.2012Z"
+                        stroke="#0F0F0F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    Категория
+                  </div>
+                  <svg
+                    class="jobs__box-category-arrow"
+                    width="15"
+                    height="8"
+                    viewBox="0 0 15 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L7.5 7L13.5 1"
+                      stroke="#0F0F0F"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <button class="jobs__box-btn">Подписаться</button>
+              </div>
+              <div class="jobs__box2">
+                <h4 class="jobs__box2-title">Мы в социальных сетях</h4>
+                <div class="jobs__box2-socials">
+                  <a href="#" class="jobs__box2-social"></a>
+                  <a href="#" class="jobs__box2-social"></a>
+                  <a href="#" class="jobs__box2-social"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
